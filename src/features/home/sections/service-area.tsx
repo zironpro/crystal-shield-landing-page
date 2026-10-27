@@ -8,11 +8,11 @@ export function ServiceArea() {
         <div className="max-w-4xl 2xl:max-w-5xl">
           <Accent />
           <h2 className="text-balance text-2xl font-semibold tracking-[-0.015em] text-ink sm:text-3xl lg:text-4xl">
-            Window Film Services in Abu Dhabi
+            Frosted & Decorative Window Film Services in Abu Dhabi
           </h2>
           <p className={`mt-3 ${body}`}>
-            Crystal Shield provides professional window film solutions in Abu Dhabi for
-            residential, commercial and industrial properties.
+            Crystal Shield provides premier frosted glass and decorative window film installations across Abu Dhabi,
+            serving corporate towers, government entities, medical centers, commercial spaces, and luxury residences.
           </p>
         </div>
       </div>

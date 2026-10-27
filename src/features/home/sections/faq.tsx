@@ -3,35 +3,35 @@ import { Accent, EMAIL, Icon, PHONE_DISPLAY, PHONE_HREF, body, container, h2, ic
 
 const faqs: { q: string; a: ReactNode }[] = [
   {
-    q: "What is the best window film for heat reduction in Abu Dhabi?",
-    a: "The best film depends on your glass type, sunlight exposure and desired balance between heat rejection and natural light. Solar control films are commonly used to manage solar heat gain and glare.",
+    q: "Does frosted window film provide complete two-way privacy?",
+    a: "Yes. Premium frosted window films obscure vision from both sides day and night while still transmitting up to 70–80% of natural daylight into the room, making them ideal for bathrooms, offices, and meeting areas.",
   },
   {
-    q: "Can window film help reduce electricity bills?",
-    a: "Suitable solar control films can reduce heat entering through windows and may lower air-conditioning demand. The actual energy savings depend on the building and its cooling system.",
+    q: "Can frosted window films have custom patterns or company logos?",
+    a: "Absolutely. We utilize precision digital cutting plotters to produce bespoke logos, company branding, linear bands, frosted gradients, and decorative motifs tailored precisely to your glass dimensions.",
   },
   {
-    q: "Does window film block UV rays?",
-    a: "Many architectural window films offer high UV rejection. Selected products can block up to 99% of UV rays. Check the technical specifications of the film you choose.",
+    q: "Can frosted film be removed or replaced without damaging the glass?",
+    a: "Yes. Unlike permanent chemical acid etching or sandblasting, high-grade architectural frosted films can be cleanly removed or replaced if branding changes, leases expire, or updates are needed, leaving your glass intact.",
   },
   {
-    q: "Can window film be installed on existing windows?",
-    a: "Yes, many window films are designed for existing glass. However, the glass type, condition and film compatibility should be checked before installation.",
+    q: "Can frosted window film be installed on existing glass?",
+    a: "Yes, frosted window films can be retrofitted onto virtually any flat, smooth architectural glass surface, including office partitions, shower enclosures, conference rooms, entry doors, and external windows.",
   },
   {
-    q: "Does safety window film make glass unbreakable?",
-    a: "No. Safety film does not make glass unbreakable. It is designed to help hold fragments together after breakage. The level of protection depends on the film, glass and installation system.",
+    q: "How durable is frosted window film in high humidity like bathrooms?",
+    a: "Our architectural frosted films are engineered with water-resistant adhesives specifically designed to withstand steam, humidity, and regular glass cleaning without peeling or bubbling.",
   },
   {
-    q: "Is window film suitable for villas and apartments?",
-    a: "Yes. Suitable films can help residential properties manage heat, glare and UV exposure. The recommended film depends on the windows and the homeowner's priorities.",
+    q: "Does frosted film also help with UV and solar glare?",
+    a: "Yes. High-quality frosted films diffuse harsh direct glare into gentle ambient light and block up to 99% of harmful UV rays, protecting occupants and interior furnishings.",
   },
   {
-    q: "How much does window film installation cost in Abu Dhabi?",
-    a: "The cost depends on the glass area, selected film, installation conditions and project requirements. Contact Crystal Shield for a quotation based on your property.",
+    q: "How does frosted film compare in cost to acid-etched or sandblasted glass?",
+    a: "Frosted window film delivers an identical high-end matte aesthetic at a fraction of the cost, requires zero glazing downtime, and provides full flexibility for future design changes.",
   },
   {
-    q: "How can I request a window film consultation?",
+    q: "How can I request a frosted film consultation and quote in Abu Dhabi?",
     a: (
       <>
         Contact Crystal Shield Tint Insulation LLC by phone at{" "}
@@ -42,7 +42,7 @@ const faqs: { q: string; a: ReactNode }[] = [
         <a href={`mailto:${EMAIL}`} className="font-semibold text-lagoon underline-offset-4 hover:underline">
           {EMAIL}
         </a>{" "}
-        to discuss your requirements and request a consultation.
+        for glass measurement, pattern consultation, and a customized quotation.
       </>
     ),
   },
@@ -55,7 +55,7 @@ export function Faq() {
         <div className="lg:col-span-4">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
             <Accent />
-            <h2 className={h2}>Frequently Asked Questions About Window Film in Abu Dhabi</h2>
+            <h2 className={h2}>Frequently Asked Questions About Frosted Window Film in Abu Dhabi</h2>
           </div>
         </div>
 

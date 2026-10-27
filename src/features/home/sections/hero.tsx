@@ -2,20 +2,20 @@ import Image from "next/image";
 
 const propertyTypes = [
   {
-    label: ["Residential", "Properties"],
+    label: ["Office", "Partitions"],
+    path: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1",
+  },
+  {
+    label: ["Conference", "Rooms"],
+    path: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+  },
+  {
+    label: ["Residential", "Villas & Homes"],
     path: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
   },
   {
-    label: ["Villa"],
-    path: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
-  },
-  {
-    label: ["Commercial", "Buildings"],
-    path: "M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z",
-  },
-  {
-    label: ["Corporate", "Offices"],
-    path: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1",
+    label: ["Showrooms &", "Retail Glass"],
+    path: "M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z",
   },
 ];
 
@@ -36,19 +36,18 @@ export function Hero() {
 
           {/* Modern balanced heading without oversized bold weight */}
           <h1 className="text-balance text-2xl font-semibold leading-[1.18] tracking-[-0.02em] text-ink sm:text-3xl md:text-4xl lg:text-[2.75rem] 2xl:text-5xl">
-            Protect Your Property from Heat, Glare and Sun Damage
+            Elevate Privacy & Style with Frosted Glass Window Films
           </h1>
 
           <p className="mt-[clamp(0.5rem,1.4vh,1rem)] text-sm font-medium tracking-tight text-ink sm:text-base lg:text-lg">
-            Window Film Solutions In Abu Dhabi for Every Property
+            Architectural Frosted & Decorative Film Solutions In Abu Dhabi
           </p>
 
           {/* Hidden on short screens so everything still fits without scrolling */}
           <p className="mt-3 hidden max-w-xl text-sm leading-relaxed text-soft sm:text-base lg:max-w-lg 2xl:max-w-2xl 2xl:text-lg min-[1920px]:text-xl [@media(min-height:760px)]:block">
-            Protect and enhance your property with advanced Madico window film
-            solutions from Crystal Shield in Abu Dhabi. Reduce solar heat,
-            minimise glare, help protect interiors from UV exposure and enjoy
-            greater indoor comfort with the right film for your space.
+            Transform plain glass into sophisticated architectural features with Crystal Shield frosted
+            window films. Achieve daylight-friendly visual privacy, bespoke decorative bands, logo branding,
+            and glare reduction for corporate offices, clinics, bathrooms, and modern residences across Abu Dhabi.
           </p>
 
           <ul className="mt-[clamp(0.75rem,2.4vh,2rem)] grid w-full grid-cols-2 gap-x-4 gap-y-3 sm:grid-cols-4 sm:gap-x-3 lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4 [@media(max-height:620px)]:hidden">
@@ -82,7 +81,7 @@ export function Hero() {
               href="#services"
               className="inline-flex w-full items-center justify-center gap-3 rounded-full bg-lagoon px-6 py-3 text-center text-sm font-semibold text-porcelain shadow-sm transition-all duration-200 hover:bg-lagoon-deep hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lagoon active:scale-95 sm:w-auto sm:px-8 sm:py-3.5 2xl:px-10 2xl:py-4 2xl:text-base"
             >
-              <span>Explore Our Window Film Solutions</span>
+              <span>Explore Frosted Film Solutions</span>
               <svg
                 className="h-4 w-4 shrink-0"
                 fill="none"
@@ -107,14 +106,16 @@ export function Hero() {
           <div className="pointer-events-none absolute -left-4 top-1/2 z-10 hidden h-8 w-8 -translate-y-1/2 rounded-2xl bg-sea-glass/80 lg:block" />
 
           <div className="grid h-full grid-cols-12 grid-rows-[minmax(0,3fr)_minmax(0,2fr)] gap-3 sm:gap-4 lg:gap-5 2xl:gap-6">
-            {/* Villa */}
+            {/* Featured Conference Room Frosted Manifestation */}
             <div className={`${card} col-span-7`}>
               <div className={frame}>
                 <Image
-                  src="/hero-villa.jpg"
-                  alt="Modern luxury villa with architectural sun protection window film"
+                  src="/images/conference-room.png"
+                  alt="Modern corporate office conference room with world map frosted decorative glass partition film"
                   fill
-                  sizes="(max-width: 1024px) 60vw, 420px"
+                  quality={95}
+                  unoptimized
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover object-center"
                   priority
                 />
@@ -137,28 +138,32 @@ export function Hero() {
               </div>
             </div>
 
-            {/* Skyline */}
+            {/* Architectural Frosted Translucent Glass Pavilion */}
             <div className={`${card} col-span-5`}>
               <div className={frame}>
                 <Image
-                  src="/hero-skyline.jpg"
-                  alt="Abu Dhabi skyline commercial architecture"
+                  src="/images/frosted-hero.png"
+                  alt="Contemporary building exterior with architectural translucent frosted glass facade"
                   fill
-                  sizes="(max-width: 1024px) 40vw, 300px"
+                  quality={95}
+                  unoptimized
+                  sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center"
                   priority
                 />
               </div>
             </div>
 
-            {/* Interior */}
+            {/* Panoramic Wide Suite View */}
             <div className={`${card} col-span-12`}>
               <div className={frame}>
                 <Image
-                  src="/hero-interior.jpg"
-                  alt="Interior living space with panoramic UV and glare protected window film"
+                  src="/images/lobby.png"
+                  alt="Modern office lobby and reception area featuring architectural frosted glass partitions"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 750px"
+                  quality={95}
+                  unoptimized
+                  sizes="(max-width: 1024px) 100vw, 100vw"
                   className="object-cover object-center"
                 />
               </div>
@@ -174,7 +179,12 @@ export function Hero() {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                   />
                 </svg>
               </div>

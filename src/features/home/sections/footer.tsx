@@ -21,7 +21,7 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-1 text-sm text-porcelain/70 2xl:text-base">
-            Window film solutions in Abu Dhabi, powered by Madico technology.
+            Frosted & decorative glass window film solutions in Abu Dhabi.
           </p>
         </div>
 

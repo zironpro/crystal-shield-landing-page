@@ -3,9 +3,9 @@ import { Accent, container, h2, sectionPad } from "./shared";
 
 const reasons = [
   {
-    title: "Solutions tailored to Abu Dhabi's climate",
+    title: "Tailored Privacy & Light Diffusion",
     icon: (
-      // Sun icon
+      // Eye / privacy icon
       <svg
         className="h-5 w-5 2xl:h-6 2xl:w-6"
         fill="none"
@@ -14,17 +14,22 @@ const reasons = [
         strokeWidth="2"
         aria-hidden="true"
       >
-        <circle cx="12" cy="12" r="4" />
         <path
           strokeLinecap="round"
-          d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+          strokeLinejoin="round"
+          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+        />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
         />
       </svg>
     ),
-    text: "Our recommendations consider intense sunlight and heat exposure in the UAE.",
+    text: "Engineered to deliver high visual obscuration while transmitting soft, flattering natural light.",
   },
   {
-    title: "Madico-backed film solutions",
+    title: "Architectural Grade Film Technology",
     icon: (
       // Layers / film stack icon
       <svg
@@ -42,12 +47,12 @@ const reasons = [
         />
       </svg>
     ),
-    text: "Window film solutions powered by Madico technology for architectural, safety and specialist applications.",
+    text: "Durable, high-clarity polymeric films resistant to yellowing, shrinkage, and moisture in humid environments.",
   },
   {
-    title: "Professional installation",
+    title: "Precision Plotter-Cut & Custom Patterns",
     icon: (
-      // Tool / wrench icon
+      // Precision / scissors / ruler icon
       <svg
         className="h-5 w-5 2xl:h-6 2xl:w-6"
         fill="none"
@@ -63,10 +68,10 @@ const reasons = [
         />
       </svg>
     ),
-    text: "Careful preparation, accurate application and a clean finish.",
+    text: "State-of-the-art computer cutting for flawless logos, geometric manifestations, and exact alignments.",
   },
   {
-    title: "Quality-focused approach",
+    title: "ISO-Certified Installation Standards",
     icon: (
       // Gear / settings badge icon
       <svg
@@ -85,7 +90,7 @@ const reasons = [
         <circle cx="12" cy="12" r="3" />
       </svg>
     ),
-    text: "ISO 9001:2015 and ISO 14001 support our quality-management and environmental-management credentials.",
+    text: "ISO 9001:2015 and ISO 14001 certified processes guaranteeing bubble-free adhesion and pristine edges.",
   },
 ];
 
@@ -98,8 +103,8 @@ export function WhyChoose() {
           <div className="relative min-h-[340px] w-full overflow-hidden rounded-[2rem] bg-sea-glass p-2 shadow-sm sm:min-h-[420px] sm:rounded-[2.5rem] sm:p-3 lg:col-span-5 lg:min-h-[500px] xl:col-span-5 xl:min-h-[540px]">
             <div className="relative h-full min-h-[320px] w-full overflow-hidden rounded-[1.6rem] bg-line/40 sm:rounded-[2.1rem]">
               <Image
-                src="/why-choose-building.jpg"
-                alt="Architectural building with Crystal Shield high performance window film"
+                src="/images/why-us.png"
+                alt="Professional frosted window film installation by Crystal Shield experts"
                 fill
                 sizes="(max-width: 1024px) 100vw, 550px"
                 className="object-cover object-center"
@@ -112,12 +117,12 @@ export function WhyChoose() {
             <div>
               <Accent />
 
-              <h2 className={h2}>Why Choose Crystal Shield Tint Insulation LLC?</h2>
+              <h2 className={h2}>Why Choose Crystal Shield for Frosted Window Films?</h2>
 
               <p className="mt-4 text-sm leading-relaxed text-soft sm:text-[0.95rem] 2xl:text-base">
-                Choosing the right window film involves more than selecting a shade. The film must
-                suit the glass, the building&apos;s exposure to sunlight and the outcome you want to
-                achieve.
+                Achieving a luxury sandblasted finish requires impeccable glass preparation, immaculate
+                alignment, and premium grade vinyls. Crystal Shield guarantees clean, optical uniformity
+                without bubbling, peeling, or seam distortion.
               </p>
 
               {/* 2x2 Feature Grid with circular icon containers matching design */}

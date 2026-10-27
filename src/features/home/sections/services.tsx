@@ -2,29 +2,29 @@ import { IconBox, SectionHeader, body, container, icons, sectionPad } from "./sh
 
 const services = [
   {
-    title: "Solar Control Window Film",
-    icon: icons.sun,
-    text: "Reduce solar heat gain and harsh sunlight entering through glass. Solar control films can improve indoor comfort, reduce glare and help lower air-conditioning demand, depending on the film and building.",
-  },
-  {
-    title: "Safety and Security Window Film",
+    title: "Matte & Acid-Etched Frosted Film",
     icon: icons.shield,
-    text: "Add a protective layer to suitable glass surfaces. Safety and security films are designed to help hold broken glass fragments together and may delay forced entry when installed as part of an appropriate system.",
+    text: "Simulate luxurious sandblasted or acid-etched glass at a fraction of the cost. Ideal for continuous privacy on bathroom windows, office cabins, and clinic consultation rooms.",
   },
   {
-    title: "UV Protection Window Film",
-    icon: icons.eye,
-    text: "Help protect furniture, flooring, curtains and merchandise from sun-related fading. Selected window films can reject up to 99% of UV rays while maintaining a bright interior.",
-  },
-  {
-    title: "Commercial Window Film Installation",
+    title: "Decorative Patterns & Linear Manifestations",
     icon: icons.building,
-    text: "Improve comfort in offices, retail stores, schools and other commercial buildings. Our solutions can help manage glare, sunlight and glass safety requirements according to each property's needs.",
+    text: "Enhance glass visibility and style with geometric lines, dot matrices, and custom privacy bands that meet statutory glass manifestation safety codes in commercial workspaces.",
   },
   {
-    title: "Blast Mitigation Window Film",
-    icon: icons.lock,
-    text: "For projects with elevated security requirements, specialist film and attachment systems can help mitigate hazards from flying glass. The right solution depends on the glazing system, risk assessment and project specifications.",
+    title: "Custom Cut Logos & Graphic Manifestation",
+    icon: icons.badge,
+    text: "Incorporate branded corporate identity, precision-cut frosted logos, and unique custom designs directly onto conference room partitions and reception entrance glazing.",
+  },
+  {
+    title: "Gradient & Translucent Privacy Films",
+    icon: icons.sun,
+    text: "Achieve seamless transitions from opaque frost to crystal-clear glass. Balances confidential seated sightlines with open, bright architectural daylighting.",
+  },
+  {
+    title: "Dual Privacy & Solar Glare Control Film",
+    icon: icons.eye,
+    text: "Combine matte frosted privacy aesthetics with high UV rejection and solar glare reduction for exterior-facing windows and sunny atrium perimeters.",
   },
 ];
 
@@ -32,7 +32,7 @@ export function Services() {
   return (
     <section id="services" className={`scroll-mt-[var(--header-h)] bg-porcelain ${sectionPad} !pt-0`}>
       <div className={container}>
-        <SectionHeader title="Our window film services" />
+        <SectionHeader title="Our Frosted & Decorative Film Services" />
 
         {/* 3 cards on the first row, 2 wider cards on the second (desktop) */}
         <ul className="mt-10 grid gap-4 sm:grid-cols-2 sm:gap-5 lg:mt-14 lg:grid-cols-6 lg:gap-6 2xl:gap-8">

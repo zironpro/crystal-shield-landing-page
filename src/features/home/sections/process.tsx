@@ -1,18 +1,18 @@
 import { Icon, PHONE_DISPLAY, PHONE_HREF, SectionHeader, body, container, ctaPrimary, ctaSecondary, EMAIL, icons, sectionPad } from "./shared";
 
 const steps = [
-  { title: "Discuss Your Requirements", text: "Tell us whether you need heat reduction, glare control, UV protection, privacy or enhanced glass safety." },
-  { title: "Assess Your Property", text: "We review the application, existing glass and project requirements to help determine suitable options." },
-  { title: "Recommend the Right Film", text: "Our team recommends a solution based on the intended performance, appearance and technical suitability." },
-  { title: "Professional Installation", text: "The selected film is installed with attention to surface preparation, application quality and finishing." },
-  { title: "Final Inspection", text: "We check the completed installation and explain the relevant care and maintenance requirements." },
+  { title: "Design & Privacy Consultation", text: "Discuss your privacy level, decorative patterns, custom cut logos, or glass manifestation requirements." },
+  { title: "Site Survey & Measurement", text: "We inspect your glass partitions, take accurate laser measurements, and evaluate lighting conditions." },
+  { title: "Custom Mockups & Film Selection", text: "Choose from matte frosted, etched vinyl, gradient, or branded patterns with digital visual proofs." },
+  { title: "Clean Room Precision Installation", text: "Our technicians thoroughly clean, decontaminate, and seamlessly apply the film with pinpoint alignment." },
+  { title: "Quality Check & Handover", text: "Detailed inspection of edges, clarity, and bubble-free adhesion, accompanied by care guidelines." },
 ];
 
 export function Process() {
   return (
     <section id="process" className={`scroll-mt-[var(--header-h)] bg-sea-glass/50 ${sectionPad}`}>
       <div className={container}>
-        <SectionHeader title="Our Window Film Installation Process" />
+        <SectionHeader title="Our Frosted Film Installation Process" />
 
         {/* Numbers are fine here: this really is a sequence */}
         <ol className="mt-10 grid gap-y-6 lg:mt-14 lg:grid-cols-5 lg:gap-x-6 2xl:gap-x-10">
@@ -37,11 +37,11 @@ export function Process() {
           <div className="grid gap-6 lg:grid-cols-12 lg:items-center lg:gap-12">
             <div className="lg:col-span-7">
               <h2 className="text-balance text-2xl font-semibold tracking-[-0.015em] text-ink sm:text-3xl lg:text-4xl">
-                Book Your Window Film Consultation
+                Book Your Frosted Film Consultation
               </h2>
               <p className={`mt-3 ${body}`}>
-                Contact Crystal Shield Tint Insulation LLC to discuss your requirements and request
-                a consultation.
+                Contact Crystal Shield Tint Insulation LLC to explore frosted, etched, and decorative glass
+                designs for your office or residence in Abu Dhabi.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:col-span-5 lg:justify-end">

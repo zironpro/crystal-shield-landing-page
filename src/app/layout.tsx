@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Crystal Shield - Window Film Solutions in Abu Dhabi",
+  title: "Crystal Shield - Frosted & Decorative Window Film Solutions in Abu Dhabi",
   description:
-    "Professional Madico window film solutions in Abu Dhabi for heat reduction, UV protection, glare control and glass safety.",
+    "Premium frosted and decorative glass window film solutions in Abu Dhabi. Transform interior privacy, conference rooms, office partitions, and architectural glass with elegant matte finishes.",
   icons: {
     icon: "/favicon.ico",
   },
