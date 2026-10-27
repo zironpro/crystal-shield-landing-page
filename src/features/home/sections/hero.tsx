@@ -28,7 +28,7 @@ const frame =
 export function Hero() {
   return (
     // Exactly one screen minus the navbar. --header-h is set on the page wrapper (see home-view.tsx).
-    <section className="relative flex h-[calc(100svh-var(--header-h))] w-full items-center overflow-hidden bg-porcelain px-4 py-4 sm:px-6 sm:py-6 lg:px-12 lg:py-8 xl:px-16 2xl:px-20 2xl:py-10 min-[1920px]:px-28">
+    <section id="home" className="relative flex h-[calc(100svh-var(--header-h))] w-full items-center overflow-hidden bg-porcelain px-4 py-4 sm:px-6 sm:py-6 lg:px-12 lg:py-8 xl:px-16 2xl:px-20 2xl:py-10 min-[1920px]:px-28">
       <div className="mx-auto grid h-full w-full max-w-[2400px] grid-rows-[auto_minmax(0,1fr)] gap-4 sm:gap-5 lg:grid-cols-12 lg:grid-rows-1 lg:gap-8 2xl:gap-16">
         {/* Left column: text content, vertically centred on desktop */}
         <div className="flex flex-col items-start justify-center lg:col-span-6 xl:col-span-5">
