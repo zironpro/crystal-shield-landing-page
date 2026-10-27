@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Color Palette */
+  --color-porcelain: #f5f7f6;     /* Main page background */
+  --color-sea-glass: #e3ebe8;     /* Tinted sections (services, consultation) */
+  --color-line: #cfd9d5;          /* Thin dividers and borders */
+  --color-ink: #1c2624;           /* Main text */
+  --color-soft: #4d5b58;          /* Secondary text and descriptions */
+  --color-lagoon: #1a4a47;        /* Buttons, links, numbers, accent lines */
+  --color-lagoon-deep: #123634;   /* Button hover, logo text, footer background */
+
+  /* Default theme mappings */
+  --background: var(--color-porcelain);
+  --foreground: var(--color-ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Theme tokens for utility classes (e.g., bg-porcelain, text-ink, border-line, etc.) */
+  --color-porcelain: var(--color-porcelain);
+  --color-sea-glass: var(--color-sea-glass);
+  --color-line: var(--color-line);
+  --color-ink: var(--color-ink);
+  --color-soft: var(--color-soft);
+  --color-lagoon: var(--color-lagoon);
+  --color-lagoon-deep: var(--color-lagoon-deep);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
