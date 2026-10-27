@@ -38,8 +38,8 @@ export function Footer() {
       </div>
 
       <div className={`${container} mt-8 border-t border-porcelain/15 pt-6`}>
-        <p className="text-xs text-porcelain/60 2xl:text-sm" suppressHydrationWarning>
-          © {new Date().getFullYear()} Crystal Shield Tint Insulation LLC. All rights reserved.
+        <p className="text-xs text-porcelain/60 2xl:text-sm">
+          © 2025 Crystal Shield Tint Insulation LLC. All rights reserved.
         </p>
       </div>
     </footer>
